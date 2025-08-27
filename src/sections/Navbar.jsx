@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 import { Link as ScrollLink } from "react-scroll";
+import { useMediaQuery } from "react-responsive";
 
-function Navigation() {
+function Navigation({setIsOpen, isOpen}) {
+const isMobile = useMediaQuery({ maxWidth: 853 });
+
   return (
     <ul className="nav-ul">
       <li className="nav-li cursor-pointer">
@@ -13,6 +16,7 @@ function Navigation() {
           duration={500}
           offset={-70} // Adjust based on navbar height
           spy={true}
+          onClick={() => {isMobile ? setIsOpen(!isOpen) : console.log("not happened")}}
         >
           Home
         </ScrollLink>
@@ -25,6 +29,7 @@ function Navigation() {
           duration={500}
           offset={-50}
           spy={true}
+          onClick={() => {isMobile ? setIsOpen(!isOpen) : console.log("not happened")}}
         >
           About
         </ScrollLink>
@@ -37,6 +42,7 @@ function Navigation() {
           duration={500}
           offset={-70}
           spy={true}
+          onClick={() => {isMobile ? setIsOpen(!isOpen) : console.log("not happened")}}
         >
           Work
         </ScrollLink>
@@ -49,6 +55,7 @@ function Navigation() {
           duration={500}
           offset={-70}
           spy={true}
+          onClick={() => {isMobile ? setIsOpen(!isOpen) : console.log("not happened")}}
         >
           Experience
         </ScrollLink>
@@ -61,6 +68,7 @@ function Navigation() {
           duration={500}
           offset={-20}
           spy={true}
+          onClick={() => {isMobile ? setIsOpen(!isOpen) : console.log("not happened")}}
         >
           Contact
         </ScrollLink>
@@ -91,7 +99,7 @@ const Navbar = () => {
             />
           </button>
           <nav className="hidden sm:flex">
-            <Navigation />
+            <Navigation setIsOpen={setIsOpen} isOpen={isOpen}/>
           </nav>
         </div>
       </div>
@@ -104,7 +112,7 @@ const Navbar = () => {
           transition={{ duration: 1 }}
         >
           <nav className="pb-5">
-            <Navigation />
+            <Navigation setIsOpen={setIsOpen} isOpen={isOpen}/>
           </nav>
         </motion.div>
       )}
