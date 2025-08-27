@@ -1,4 +1,4 @@
-import { mySocials } from "../constants";
+import { mySocials } from "../constants/index.js";
 const Footer = () => {
   return (
     <section className="select-none flex flex-wrap items-center justify-between gap-5 pb-3 mb-7 text-sm text-neutral-400 c-space">
