@@ -8,10 +8,14 @@ import Testimonial from "./sections/Testimonial.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from './sections/Footer.jsx';
 import './index.css';
+import { useMediaQuery } from "react-responsive";
 
 const App = () => {
+
+  const isMobile = useMediaQuery({ maxWidth: 853 });
+
   return (
-    <div className="container mx-auto max-w-7xl scrollbar-thin-custom">
+    <div className={isMobile ? `container mx-auto max-w-screen scrollbar-thin-custom overflow-x-hidden` :`container mx-auto max-w-7xl scrollbar-thin-custom`}>
       <Navbar />
       <Hero />
       <About />
