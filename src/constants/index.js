@@ -3,12 +3,10 @@ export const myProjects = [
     id: 1,
     title: "Testimonial.",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A modern, visually engaging website for a digital marketing agency to enhance their online presence and streamline client engagement. ",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "The site features an intuitive user interface and a clean, eye-catching theme designed to attract and retain visitor attention.",
+      "Built using React.js for a dynamic and responsive frontend, and Tailwind CSS for a sleek, mobile-first design.",
     ],
     href: "https://testim0nial.netlify.app/",
     logo: "",
@@ -43,14 +41,13 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Ochii Clone",
+    title: "Ochi Clone",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Recreated the captivating homepage of Ochi Design, a premier presentation and storytelling agency.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "The original site is designed to “create eye‑opening presentations” tailored for innovation teams and global brands, showcasing strong visual storytelling, strategic case studies, and client testimonials.",
+      "Faithfully reproduced the clean, modern interface and aesthetic of the original site, preserving its polished look and intuitive navigation.",
+      "Built with React.js and Tailwind CSS for a responsive, modern UI, enhanced by Framer Motion and GSAP to deliver smooth, engaging animations across key interactive elements.",
     ],
     href: "https://ochibytt.netlify.app/",
     logo: "",
@@ -92,12 +89,10 @@ export const myProjects = [
     id: 3,
     title: "The Last Chapter",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "An elegant and user-friendly online bookstore offering a curated collection of both classic and trending titles.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Designed with a minimalist yet modern aesthetic, the platform ensures a seamless shopping experience from browsing to checkout.",
+      "Built using React.js for a responsive, component-driven architecture, Tailwind CSS for sleek and adaptive styling, and Firebase for real-time database integration and backend services.",
     ],
     href: "https://thelastchapterbytt.netlify.app/",
     logo: "",
@@ -139,12 +134,10 @@ export const myProjects = [
     id: 4,
     title: "Precision",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A modern, cleanly designed website for a data analytics service offering tailored subscription packages.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Precision enables users to access in-depth, accurate insights into their data through a streamlined and user-friendly interface.",
+      "Developed using React.js for a dynamic, responsive frontend and Tailwind CSS for fast, scalable styling and a sleek, professional look.",
     ],
     href: "https://precisionbytt.netlify.app/",
     logo: "",
